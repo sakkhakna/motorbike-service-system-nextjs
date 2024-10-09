@@ -4,7 +4,7 @@ import {
     House,
     Users,
     Newspaper,
-    Box,
+    Package,
 } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from "next/navigation";
@@ -18,9 +18,9 @@ const links = [
         icon: Newspaper,
     },
     {
-        name: 'Inventories',
-        href: '/inventories',
-        icon: Box,
+        name: 'Products',
+        href: '/products',
+        icon: Package,
     },
     { name: 'Customers', href: '/customers', icon: Users },
 ]
